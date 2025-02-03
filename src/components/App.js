@@ -1,6 +1,10 @@
 
 import React from "react";
 import './../styles/App.css';
+import { useEffect , useState} from "react";
+import { BrowserRouter as Router,Routes,Route,Link } from "react-router-dom";
+import { useParams } from 'react-router-dom';
+
 
 const App = () => {
   const [data,setData] = useState([]);
